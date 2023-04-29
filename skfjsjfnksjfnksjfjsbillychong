@@ -5,8 +5,8 @@ local Window = Library.CreateLib("Nylon", "Ocean")
     local MainSection = Main:NewSection("Main")
 
 
-    MainSection:NewButton("Back/Front Flip", "Makes you do gymnastics", function()
-        loadstring(game:HttpGet('loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+    MainSection:NewButton("All Emotes", "Comma is keybind", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua'))()
     end)
 
     MainSection:NewToggle("Super-Human", "go fast and jump high", function(state)
@@ -20,7 +20,7 @@ local Window = Library.CreateLib("Nylon", "Ocean")
     end)
 
     MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end)
 
 
@@ -46,12 +46,12 @@ local Window = Library.CreateLib("Nylon", "Ocean")
     local Other = Window:NewTab("Other")
     local OtherSection = Other:NewSection("Other")
 
-    OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
+    OtherSection:NewButton("Chat Ark", "Lets you chat as if you were someone else", function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
     end)
 
-    OtherSection:NewButton("Bypassed Fly", "bird mode", function()
-        loadstring(game:HttpGet("loadstring(game:HttpGet('https://pastebin.com/raw/MdSA4fn5'))"))()
+    OtherSection:NewButton("Pls Donate", "Pls Donate Script", function()
+        loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"))()
 
         Fly(true)
     end)
