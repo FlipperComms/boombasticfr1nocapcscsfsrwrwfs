@@ -51,7 +51,7 @@ local Window = Library.CreateLib("Nylon", "Ocean")
     end)
 
     OtherSection:NewButton("Pls Donate", "Pls Donate Script", function()
-        loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"))()
 
         Fly(true)
     end)
